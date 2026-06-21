@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Website Generator 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Alex+Brush&family=Allura&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Music Control -->
+    <div class="music-control">
+        <button id="musicToggle" class="music-btn">🎵</button>
+        <audio id="bgMusic" loop>
+            <source src="Images/[TubePull] Maula_Mere_Maula_Anwar_2007_Siddharth_Koirala_Nauheed_Cyrusi_Bollywood_Romantic_Song.mp3" type="audio/mp3">
+            <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73c3a.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="main-title">For My Love</h1>
+            <p class="subtitle" id="subtitle">Add your partner's name in config.js ✨</p>
+        </header>
+
+        <!-- Character Section -->
+        <section class="characters-section">
+            <div class="character-container">
+
+                <!-- Harshi's Card -->
+                <div class="character" id="partner">
+                    <div class="character-avatar">
+                        <img src="Images/Beautiful.jpg" alt="Harshi">
+                    </div>
+                    <h3 id="Harshii">My Harshii 💕</h3>
+                    <p id="My beautiful girlfriend">My beautiful girlfriend 💖</p>
+                </div>
+                
+                <div class="love-heart">
+                    <svg viewBox="0 0 50 50" class="heart-svg">
+                        <path d="M25 45 C25 45, 5 25, 5 15 C5 10, 10 5, 15 5 C20 5, 25 10, 25 15 C25 10, 30 5, 35 5 C40 5, 45 10, 45 15 C45 25, 25 45, 25 45 Z" fill="#FF69B4"/>
+                    </svg>
+                </div>
+
+                <!-- Amit's Card -->
+                <div class="character" id="you">
+                    <div class="character-avatar">
+                        <img src="Images/amit.jpg" alt="Amit">
+                    </div>
+                    <h3 id="Amit">Amit 💙</h3>
+                    <p id="yourDescription">Forever yours</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Interactive Love Section -->
+        <section class="interaction-section">
+            <button id="loveButton" class="love-btn">Click for a surprise 💝</button>
+            <div id="loveNote" class="love-note">
+                <p id="loveNoteText">Add your love message in config.js 💖</p>
+            </div>
+        </section>
+
+        <!-- Memory Gallery -->
+        <section class="memory-gallery">
+            <h2>Our Beautiful Memories Together 💫</h2>
+            <div class="memories-grid">
+                <div class="memory-card" data-memory="late-night">
+                    <div class="memory-icon">🌙</div>
+                    <h3>Late Night Talks</h3>
+                    <p id="memoryLateNight">Those endless conversations that made us forget about time</p>
+                </div>
+                <div class="memory-card" data-memory="first-meeting">
+                    <div class="memory-icon">💫</div>
+                    <h3>The Day We'll Meet</h3>
+                    <p id="memoryFirstMeeting">I know the day we meet will be magical and unforgettable</p>
+                </div>
+                <div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>Your Care & Voice</h3>
+                    <p id="memoryCare">Your caring nature, sweet voice, and adorable cuteness</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Meter -->
+        <section class="love-meter-section">
+            <h2>How Much I Love You 💕</h2>
+            <div class="love-meter">
+                <div class="meter-fill"></div>
+                <span class="love-percentage">∞%</span>
+            </div>
+        </section>
+
+        <!-- Kiss Counter Game -->
+        <section class="game-section">
+            <h2>Virtual Kisses 💋</h2>
+            <div class="kiss-counter">
+                <span id="kissCount">0</span>
+                <button id="kissButton" class="kiss-btn">Send a Kiss 💋</button>
+            </div>
+            <div class="kiss-effects"></div>
+        </section>
+
+        <!-- Special Message -->
+        <section class="special-message">
+            <div class="message-container">
+                <h2 id="specialMessageTitle">To My Dearest Love</h2>
+                <p id="specialMessage1">Tum meri zindagi ki woh kahani ho,
+Jise har roz padhne ka mann karta hai.
+
+Tum woh muskaan ho,
+Jo bina wajah bhi chehre par aa jaati hai,
+Aur woh sukoon ho,
+Jo sirf tumhari baaton mein mil jaata hai.
+
+Kabhi sochta hoon,
+Aakhir tum itni khaas kaise ho?
+Phir yaad aata hai,
+Chaand bhi toh roz dikhta hai,
+Par har raat usse dekhne ka dil karta hai...</p>
+                <p id="specialMessage2">Tumhare saath waqt rukta nahi,
+Bas itna khoobsurat ho jaata hai
+Ki uske guzarne ka ehsaas hi nahi hota.
+
+Agar mohabbat ko lafzon mein likhna mumkin hota,
+Toh har shabd mein tum hoti,
+Har nazm mein tum hoti,
+Aur meri har dua ke aakhir mein bhi
+Sirf tum hoti❤️</p>
+                <div class="signature" id="signature">With all my love, Forever yours 💕</div>
+            </div>
+        </section>
+    </div>
+    <section class="next-page-section">
+            <a href="page2.html" class="next-page-btn">Next Page 💕</a>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
